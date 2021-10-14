@@ -1,0 +1,40 @@
+.singleStory {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: green;
+  transition: transform 1s; }
+  .singleStory h5 {
+    font-size: 12px;
+    margin-bottom: 5px; }
+  .singleStory a {
+    color: lightgreen;
+    text-decoration-line: none; }
+  .singleStory p {
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 0; }
+    .singleStory p span {
+      padding: 0 5px;
+      font-weight: lighter; }
+  .singleStory:hover {
+    background: lightgreen;
+    transition: .8s; }
+    .singleStory:hover h5 {
+      color: green; }
+    .singleStory:hover span {
+      color: black; }
+
+@media (min-width: 768px) {
+  .singleStory h5 {
+    font-size: 16px;
+    margin-bottom: 0; }
+  .singleStory p {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0; }
+    .singleStory p span {
+      padding: 0 10px;
+      font-weight: lighter; } }
+
+/*# sourceMappingURL=Storiesrow.css.map */

@@ -1,0 +1,32 @@
+.singlecomment {
+  border: 1px solid black;
+  background-color: lightgreen;
+  font-size: 12px; }
+  .singlecomment span {
+    font-weight: bold; }
+
+h5 {
+  position: relative; }
+  h5 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1; }
+  h5:hover .tooltiptext {
+    visibility: visible; }
+  h5:hover {
+    cursor: pointer; }
+
+@media (min-width: 768px) {
+  .singlecomment {
+    font-size: 16px; }
+    .singlecomment span {
+      font-size: 16px; } }
+
+/*# sourceMappingURL=Comments.css.map */

@@ -1,0 +1,55 @@
+// $singleStory:green;
+// $singleStoryHeader:lightgreen;
+@import "./_variables.scss";
+.singleStory {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: $singleStory;
+    transition: transform 1s;
+    h5 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    a {
+        color: $singleStoryHeader;
+        text-decoration-line: none;
+    }
+    p {
+        font-weight: bold;
+        font-size: 10px;
+        margin-bottom: 0;
+        span {
+            padding: 0 5px;
+            font-weight: lighter;
+        }
+    }
+    &:hover {
+        background: $singleStoryHeader;
+        transition: .8s;
+        h5 {
+            color: $singleStory
+        }
+        span {
+            color: black;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .singleStory {
+        h5 {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        p {
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 0;
+            span {
+                padding: 0 10px;
+                font-weight: lighter;
+            }
+        }
+    }
+}

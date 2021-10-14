@@ -1,0 +1,5 @@
+.app {
+    @import "./_variables.scss";
+    background-color: $mainBackground;
+    min-height: 100vh;
+}

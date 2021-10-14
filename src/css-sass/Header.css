@@ -1,0 +1,17 @@
+.header {
+  background-color: green; }
+  .header a {
+    text-align: center;
+    color: lightgreen;
+    margin-bottom: 0;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-size: 14px;
+    display: block;
+    text-decoration-line: none; }
+
+@media (min-width: 768px) {
+  .header a {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=Header.css.map */
